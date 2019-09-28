@@ -17,6 +17,27 @@ html, body, #root {
   height: auto;
 }
 
+@font-face{
+  font-family: "Supremes";
+  src: url('./fonts/Supremes-Regular.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: "Lemon";
+  src: url('./fonts/LemonMilk.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: "Lemon Light";
+  src: url('./fonts/LemonMilklight.ttf') format('truetype');
+}
+
 body{
-  background:#f5f5f5;
+  background: white;
+  font-family: "Lemon Light";
+  text-transform: uppercase;
+}
+
+a{
+  color: black;
 }
